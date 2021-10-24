@@ -5,6 +5,7 @@ import { getRandomNumber } from "../modules/getRandomNumber.js";
 const playBadSector = () => {
   const num = getRandomNumber(1, 2);
   const audio = new Audio(`bad${num}.mp3`);
+  audio.volume = 0.5;
   audio.play();
 };
 
