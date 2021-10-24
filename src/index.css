@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "IBM Plex Mono";
+  src:
+    url("fonts/ibm-plex-mono.woff2") format("woff2"),
+    url("fonts/ibm-plex-mono.woff") format("woff"),
+    url("fonts/ibm-plex-mono.ttf") format("truetype");
+}
+
+body {
+  background: var(--blue-color);
+}
